@@ -10,9 +10,9 @@ static const char *pass = WIFIPASS;
 
 WiFiClientSecure client;
 ChatGPT<WiFiClientSecure> chatGPT_Client(&client, "v1", OPENAIKEY, 60000);
-
+bool inited=false;
 void setup() {
-  bool inited=false;
+  
   Serial.begin(115200);
 
   Serial.printf("init camera\n");
