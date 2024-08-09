@@ -1,4 +1,4 @@
-#include "private.h"
+#include "private.h" // put your definition of YOURSSD, WIFIPASS, OPENAIKEY here to prevent from the commition on github
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
